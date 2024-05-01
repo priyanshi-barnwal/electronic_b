@@ -84,13 +84,13 @@ app.post('/submit-enquiry', (req, res) => {
     const transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-            user: 'miniyuvi33@gmail.com',
-            pass: 'arizfiylabkvmznr',
+            user: 'pandeyakhilesh.pd@gmail.com',
+            pass: 'drvq blfc wzuk otni',
         }
     });
 
     const mailOptions = {
-        from: 'miniyuvi33@gmail.com',
+        from: 'pandeyakhilesh.pd@gmail.com',
         to: 'priyanshi.barnwal27@gmail.com',
         subject: 'New Enquiry',
         text: `Name: ${name}\nMachine: ${machine}\nPhoneNo: ${phone}\nMessage: ${message}`
